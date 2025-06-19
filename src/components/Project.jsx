@@ -12,6 +12,7 @@ export default function Project({ name, description, video, image }) {
           muted
           loop
           playsInline
+          preload="auto"
         />
       ) : (
           <img className="w-full h-48 object-cover" src={image} alt={name} />
